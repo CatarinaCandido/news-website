@@ -13,7 +13,7 @@ body{
     position: relative;
     margin: auto;
     width: 65%;
-    height: 800px;
+   height: 1200px;
     min-width: 800px;
 }
 
@@ -222,10 +222,78 @@ body{
     border-radius: 10%;
 }
 
-#footer{
-
-    display: block;
+#world-div{
     position: relative;
+    top: 120px;
+    float: left;
+    margin: 15px;
+    width: 35%;
+    height: 450px;
+    background: url("../img/fundo-caixa.png");
+}
+
+#world-title {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0f4367;
+    color: whitesmoke;
+}
+
+#news-world-div{
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    background: white;
+}
+
+.img-news{
+    width: 100px;
+    padding: 10px;
+}
+
+.news-text{
+    float: right;
+    width: 55%;
+    display: block;
+    margin: 10px auto;
+}
+
+#recent-div{
+    position: relative;
+    top: 120px;
+    left: 5px;
+    float: right;
+    margin: 15px 1px;
+    width: 31%;
+    height: 450px;
+    background: url("../img/fundo-caixa.png");
+
+}
+
+#recent-title{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0f4367;
+    color: whitesmoke;
+}
+
+#news-recent-div{
+
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    background: white;
+
+}
+
+#footer{
+    clear: both;
+    position: relative;
+    display: block;
     bottom: 0;
     background: #0f4367;
     height: 100px;
@@ -237,7 +305,6 @@ body{
     top:10px;
     text-align: center;
     margin: auto;
-
     display: block;
     width: 25%;
     height: 50px;
